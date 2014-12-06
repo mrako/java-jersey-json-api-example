@@ -7,7 +7,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/students")
-public class JerseyRestService {
+public class RestService {
 
     @GET
     @Path("/{name}/{lastname}")

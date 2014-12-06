@@ -18,7 +18,7 @@ public class App {
         try {
             System.out.println("Jersey Example App");
 
-            final ResourceConfig resourceConfig = new ResourceConfig(JerseyRestService.class);
+            final ResourceConfig resourceConfig = new ResourceConfig(RestService.class);
             final HttpServer server = GrizzlyHttpServerFactory.createHttpServer(BASE_URI, resourceConfig);
 
             System.out.println(String.format("Application started.\nTry out %s%s\nHit enter to stop it...", BASE_URI, ROOT_PATH));
