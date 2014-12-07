@@ -11,7 +11,7 @@ import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.grizzly.http.server.HttpServer;
 
 public class App {
-    private static final URI BASE_URI = URI.create("http://localhost:8080/api");
+    private static final URI BASE_URI = URI.create("http://localhost:8888/api");
     public static final String ROOT_PATH = "";
 
     public static void main(String[] args) {
